@@ -1,0 +1,4 @@
+#!/bin/sh
+source ~/ssh_run.variables
+COMMAND=$1
+ssh $SSH_RUN_HOSTNAME_service_variable "$@"
